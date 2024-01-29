@@ -1,8 +1,41 @@
 html {
     background-color: pink;
 }
-#gameboard {
-    background-color: aliceblue;
-    height: 20px;
-    width: auto;
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+#gameboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    width: 312px;
+
+}
+#controls{
+    display: flex;
+    margin-top: 3rem;
+}
+.square {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 6rem;
+}
+/* #message {
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    color: black;
+} */
